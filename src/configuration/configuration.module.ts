@@ -10,7 +10,7 @@ export class ConfigurationModule{
                 {
                     provide : ConfigurationService,
                     useValue: new ConfigurationService({
-                        databaseUri : 'localhost'
+                        databaseUri : 'mysql://sashtiga:sashtiga@localhost:3306/pizzaria'
                     })
                 }
             ],
